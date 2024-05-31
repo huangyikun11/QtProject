@@ -1,11 +1,12 @@
 #include "mainwindow.h"
 #include <QApplication>
+#include "dongzuoku.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    dongzuoku d;
+    d.show();
 
     return a.exec();
 }
