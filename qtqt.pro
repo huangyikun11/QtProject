@@ -13,8 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        dongzuoku.cpp \
+        tianjiadongzuo.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    dongzuoku.h \
+    tianjiadongzuo.h
 
-FORMS    += mainwindow.ui
+FORMS    += \
+    dongzuoku.ui \
+    tianjiadongzuo.ui
