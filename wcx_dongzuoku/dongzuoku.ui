@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dongzuoku</class>
+ <widget class="QWidget" name="dongzuoku">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="actions">
+     <column>
+      <property name="text">
+       <string>健身动作库</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>配重（kg）</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>背</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>下拉</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>引体向上</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高位下拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械下拉</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>划船</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>杠铃划船</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>哑铃划船</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械划船</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>T杆划船</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>坐姿钢线划船</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>肩后束</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>蝴蝶机反向飞鸟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>哑铃俯身飞鸟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>龙门架反向飞鸟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>龙门架绳索面拉</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>胸</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>推胸</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>杠铃推胸</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>哑铃推胸</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械推胸</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>史密斯推胸</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>双杠臂屈伸</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>夹胸</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>蝴蝶机夹胸</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>龙门架夹胸</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>肩前中束</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>推举</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>哑铃推举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>杠铃推举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械推举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>史密斯推举</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>前平举</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>哑铃前平举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>杠铃前平举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>杠铃片前平举</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>侧平举</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>哑铃侧平举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>龙门架绳索侧平举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械侧平举</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>提拉</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>杠铃提拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>龙门架提拉</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>肱二头</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>哑铃弯举</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>杠铃弯举</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>龙门架弯举</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>器械弯举</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>集中弯举</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>牧师椅弯举</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>肱三头</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>杠铃仰卧臂屈伸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>哑铃颈后臂屈伸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>龙门架绳索臂屈伸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>龙门架过顶臂屈伸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>龙门架直杆下压</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>腿</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>股四</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>深蹲</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械腿屈伸</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>腘绳</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>硬拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械腿弯举</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>北欧挺</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>兼练</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>哈克机</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>倒蹬机</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>腹肌</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>卷腹</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>平板卷腹</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械卷腹</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>龙门架跪姿卷腹</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>举腿</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>平板举腿</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>悬垂举腿</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>臀肌</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>髋伸</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>杠铃臀冲</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械臀冲</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>史密斯后踢</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>龙门架后踢</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>器械后踢</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>髋外展</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>器械髋外展</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>龙门架单边髋外展</string>
+        </property>
+       </item>
+      </item>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="addNewAction">
+     <property name="text">
+      <string>添加新动作</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
